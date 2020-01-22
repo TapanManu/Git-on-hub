@@ -9,7 +9,7 @@ ls .git
 git config --global user.name #username
 git config --global user.email #emailid
 git config --global core.editor #editorname eg:sublime
-#configures username,email,text editor throughout the system not within the directory where git folder is done
+#configures username,email,text editor throughout the system not within the directory where git repo is done
 
 git status
 #status of git repo along with changes made in files within this directory
@@ -32,5 +32,7 @@ git diff --staged
 
 git commit -m "commit message"
 #commit changes to repo
+
+
 
 
