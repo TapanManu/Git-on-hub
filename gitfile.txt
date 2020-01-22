@@ -44,12 +44,22 @@ git push "https://github.com/username/repo.git master
 
 git remote add origin "existing repo" url
 git push origin master
+#push to existing git repo
 
 git push -u origin master
 #push git commands to a repo accessed by more than one user
 
 git push -f origin master
 #force push
+
+git remote -v
+#display all remotes in git
+
+git remote remove origin
+#remove the existing remote
+
+
+
 
 
 
