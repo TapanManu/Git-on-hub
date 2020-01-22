@@ -18,7 +18,7 @@ git diff
 #seeing the changes made
 
 git add .
-#files in current folder moved to staging area
+#files in current folder(working directory) moved to staging area
 
 git add filename
 #file just moved toi staging area
@@ -32,6 +32,20 @@ git diff --staged
 
 git commit -m "commit message"
 #commit changes to repo
+
+git log 
+#provides details of all commits including unique id of commit,author of commit etc..
+
+#ls -la
+list out details of files
+
+git push "https://github.com/username/repo.git master
+#pushing the files to master branch of git repo
+
+
+
+
+
 
 
 
