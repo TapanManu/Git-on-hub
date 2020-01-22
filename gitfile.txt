@@ -42,6 +42,16 @@ list out details of files
 git push "https://github.com/username/repo.git master
 #pushing the files to master branch of git repo
 
+git remote add origin "existing repo" url
+git push origin master
+
+git push -u origin master
+#push git commands to a repo accessed by more than one user
+
+git push -f origin master
+#force push
+
+
 
 
 
