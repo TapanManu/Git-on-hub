@@ -1,7 +1,7 @@
 # git-commands
 
 __Git__ is an open source software for version control
-popular git commands
+popular git commands.
 Inspect different commits and branches
 ```
 $ git checkout [SHA] 
