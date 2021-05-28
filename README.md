@@ -12,7 +12,7 @@ resets HEAD to specfied SHA (HEAD is var that points to commit). In this way, 't
 $ git checkout HEAD~[number of commits to moveback] 
 ```
 
-Alternate syntax. Don't have to log first, if you know how many commits you want to move back. $ git checkout master return to present repo state $ git checkout [branch] move to branch
+Alternate syntax: Don't have to log first, if you know how many commits you want to move back. $ git checkout master return to present repo state $ git checkout [branch] move to branch
 
 RESET: revert back to prior state and destroy following commits.
 
